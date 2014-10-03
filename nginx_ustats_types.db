@@ -1,0 +1,16 @@
+requests               value:COUNTER:0:U
+request_rate           seconds:GAUGE:0:U
+request_time_ms       miliseconds:GAUGE:0:U
+http_499               value:COUNTER:0:U
+http_5XX               value:COUNTER:0:U
+http_500               value:COUNTER:0:U
+http_503               value:COUNTER:0:U
+http_503               value:COUNTER:0:U
+tcp_errors             value:COUNTER:0:U
+http_read_timeouts     value:COUNTER:0:U
+http_write_timeouts    value:COUNTER:0:U
+fails_timeout        seconds:GAUGE:0:U
+fails_max              value:GAUGE:0:U
+fails_start            value:GAUGE:0:U
+fails_last             value:GAUGE:0:U
+fails_total            value:GAUGE:0:U
